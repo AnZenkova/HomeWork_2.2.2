@@ -6,5 +6,7 @@ public class Main {
 
         Bicycle bicycle1 = new Bicycle("Sport-1.1", 2);
         Bicycle.updateTyre();
+        Car.updateTyre();
+        Car.checkEngine();
     }
 }
